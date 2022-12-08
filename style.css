@@ -1,23 +1,20 @@
-body{
-    background: #aafff0;
-}
 .wrapper{
     margin:0 auto;
     width:600px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    border: 0.5mm ridge #000;
+    border: 0.5mm ridge rgb(173, 173, 234);
     padding: 20px;
     background: white;
 }
 .right{
-    background-color: rgba(0, 200, 0, 0.5);
+    background-color: #bbf1b7;
     border-radius: 5px;
     padding-left:5px;
 }
 .wrong{
-    background-color: rgb(255, 44, 55);
+    background-color: #efc0f0;
     border-radius: 5px;
     padding-left:5px;
 }
@@ -25,8 +22,8 @@ body{
     display: none;
 }
 #btn1{
-    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(60, 59, 60));
 }
 .opend{
-    background-color: skyblue;
+    background-color: grey;
 }
